@@ -19,5 +19,7 @@
       "dry" : 0
     }
   },
-  "environment": {}
+  "environment": {
+    "fps" : 100
+  }
 }
