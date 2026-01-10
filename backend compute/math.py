@@ -13,10 +13,3 @@ def integral (start, stop, function, step):
     if count >= (step):
       break
   return (sumvalue*(stop-start)/step)
-
-def matrix (rows, columns, characters=0):
-  matrix = []
-  for element in range(rows):
-     for element in range(columns):
-       matrix.append(characters)
-  print(matrix)
