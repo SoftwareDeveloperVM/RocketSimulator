@@ -20,3 +20,16 @@ def force (mass, acceleration):
 
 def universal_graviation(mass1, mass2, distance):
     return gravity_constant*((mass1*mass2)/distance**2)
+
+def vector (direction, magnitude):
+    return [direction, magnitude]
+    
+# linear algebra
+def matrix (rows, columns, characters=0):
+  matrix = []
+  for element in range(rows):
+    row = []
+    for element in range(columns):
+       row.append(characters)
+    matrix.append(row)
+  print(matrix)
