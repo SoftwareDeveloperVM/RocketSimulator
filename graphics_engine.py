@@ -19,6 +19,15 @@ while loop:
     for event in graphic.event.get():
         if event.type == graphic.QUIT:
             loop = False
+        if event.type == graphic.KEYDOWN:
+            if event.key == graphic.K_LEFT:
+                print("left key")
+            if event.key == graphic.K_RIGHT:
+                print("right key")
+            if event.key == graphic.K_UP:
+                print("up key")
+            if event.key == graphic.K_DOWN:
+                print("down key")
     screen.fill(colors["colors"]["white"])
     graphic.display.flip()
     clock.tick(initial["environment"]["fps"])
